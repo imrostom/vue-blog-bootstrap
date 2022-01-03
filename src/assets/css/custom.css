@@ -1,0 +1,118 @@
+/*
+    #######################
+    Error Page CSS
+    ########################
+*/
+.error-page-section-area {
+    color: #000;
+    padding: 50px 0;
+    background: #f7f7f7;
+}
+
+.notfound {
+    width: 100%;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.notfound-404 h1 {
+    font-size: 146px;
+    font-weight: 700;
+    margin: 0;
+    color: #232323;
+}
+.notfound-404 h1 > span {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-image: url(../images/emoji.png);
+    background-size: cover;
+    -webkit-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    transform: scale(1.4);
+    z-index: -1;
+}
+.notfound h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    color: #232323;
+}
+.notfound p {
+    color: #787878;
+    font-weight: 300;
+}
+.notfound a {
+    display: inline-block;
+    padding: 12px 30px;
+    font-weight: 700;
+    background-color: #212529;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+.notfound a:hover {
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 767px) {
+    .notfound-404 h1 {
+        font-size: 86px;
+    }
+    .notfound-404 h1 > span {
+        width: 86px;
+        height: 86px;
+    }
+}
+
+
+/*
+    #######################
+    Contact Page CSS
+    ########################
+*/
+
+.contact-section-area, .faq-section-area {
+    color: #555;
+    padding: 50px 0
+}
+.contact-icon i {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.contact-form {
+    background: #fff;
+    padding: 30px;
+}
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+.contact-image {
+    text-align: center;
+}
+.contact-image img {
+    border-radius: 6rem;
+    width: 11%;
+    transform: rotate(29deg);
+}
+.contact-form form {
+    padding: 0 10%;
+}
+.contact-form h3 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0062cc;
+}
+.btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #dc3545;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
